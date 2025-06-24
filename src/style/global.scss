@@ -1,6 +1,10 @@
-*{ margin: 0; padding: 0; box-sizing: border-box; }
+/* reset */
+*{ margin: 0; padding: 0; }
+a{ text-decoration: none; color: inherit; }
+li{ list-style: none; }
 body{
     background-color: $bg-color;
     color: $text-color;
-    font-family: '양진체';
+    font-family: 'MaruBuri';
+    word-break: keep-all;
 }
