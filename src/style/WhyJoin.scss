@@ -1,0 +1,34 @@
+.why-join{
+    margin: 2rem 0;
+    h2{
+        font-size: 2.5rem;
+    }
+    ul{
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+        li{
+            position: relative;
+            flex: 1;
+            aspect-ratio: 1/1.2;
+            background-image: linear-gradient(135deg,#434375,#2c0f3a,#730e68);
+            padding: 1rem;
+            border-radius: 10px;
+            *{
+                margin: 0.5rem;
+            }
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                color: rgba(255,255,255,0.7);
+            }
+            div{
+                position: absolute;
+                font-size: 4rem;
+                bottom: 0;
+                right: 10px;
+            }
+        }
+    }
+}
