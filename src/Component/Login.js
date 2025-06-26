@@ -44,7 +44,7 @@ const Login = () => {
         </label>
         <div className="sign-up">
           <p>클론 프로젝트가 어떻게 만들어졌는지 궁금하신가요?</p>
-          <a href="https://hyeswe10.github.io/netflix/" target="_blank">깃허브에서 살펴보세요</a>
+          <a href="https://github.com/hyeswe10/netflix" target="_blank">깃허브에서 살펴보세요</a>
           <p>이 페이지는 <strong>포트폴리오</strong> 용도로 제작된 클론 프로젝트입니다.</p>
         </div>
       </div>
