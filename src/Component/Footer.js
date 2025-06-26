@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>이 사이트는 Netflix 클론입니다.</li>
                 <li>상업목적이 아닙니다.</li>
                 <li>Made by 문정우</li>
-                <li>GitHub 링크 : <a href=""></a></li>
+                <li>GitHub 링크 : <a href="https://hyeswe10.github.io/netflix/" target="_blank">https://hyeswe10.github.io/netflix/</a></li>
                 <li>기술스택 : React, SCSS, REST API, Flex Layout, Grid Layout</li>
             </ul>
         </footer>
