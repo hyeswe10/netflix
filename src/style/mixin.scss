@@ -37,6 +37,16 @@
     left: 10px;
     top: 0;
     color: #888;
-    transition: 0.5s;
+    transition: 0.3s;
+  }
+}
+@mixin tablet{
+  @media screen and (max-width:$medium-size){
+    @content;
+  }
+}
+@mixin mobile{
+  @media screen and (max-width:$small-size){
+    @content;
   }
 }

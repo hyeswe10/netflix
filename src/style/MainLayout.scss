@@ -10,8 +10,25 @@
     height: 100px;
     max-width: $large-size;
     margin: 0 auto;
+    @include flex-layout(row,space-between,center)
   }
   .logo-img{
     width: 200px;    
+  }
+  .lang{
+    @include flex-layout();
+    gap: 1rem;
+    select{
+      padding: 0.5rem 1rem;
+      outline: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      border: 1px solid #fff;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+    }
+    button{
+      @include btn-style();
+    }
   }
 }

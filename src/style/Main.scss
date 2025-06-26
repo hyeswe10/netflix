@@ -1,6 +1,8 @@
 .banner{
   width: 60%;
   margin: 0 auto;
+  @include tablet{ width: 100%; };
+  @include mobile{ width: 100%; };
   height: calc(90vh - 100px);  
   @include flex-layout(column);  
   h1{
@@ -16,18 +18,8 @@
 }
 section{
   width: 70%;
+  @include tablet{
+    width: 90%;
+  }
   margin: 0 auto;
-}
-.lang{
-  position: absolute;
-  top: -80px;
-  right: 0;
-  @include flex-layout();
-  gap: 0.5rem;
-  select{
-    padding: 0.5rem 1rem;
-  }
-  button{
-    @include btn-style();
-  }
 }

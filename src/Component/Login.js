@@ -39,7 +39,7 @@ const Login = () => {
         <button>로그인 코드 사용하기</button>
         <a href="#">비밀번호를 잊으셨나요?</a>
         <label>
-          <input type="checkbox"/>
+          <input type="checkbox" className="checkbox"/>
           <span>로그인 정보 저장</span>
         </label>
         <div className="sign-up">
